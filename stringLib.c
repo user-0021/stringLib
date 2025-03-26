@@ -1,4 +1,5 @@
 #include "stringLib.h"
+#include <stdarg.h>
 
 int strlistOR(char const* str1,int argc,...){
     va_list args;
