@@ -5,5 +5,17 @@
  */
 #pragma once
 
+typedef enum{
+	INT
+}JSON_MEMBER_TYPE;
+
+
+typedef struct
+{
+	/* data */
+} JSON_MEMBER;
+
+
+
 int strlistOR(char const* str1,int argc,...);
-char* strGetMatchPattern(char const* str1,int argc,...);
+char** strGetMatchPattern(char const* str1,int argc,...);
